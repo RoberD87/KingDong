@@ -123,6 +123,14 @@ h3 {
     body {
         font-size: 1.2em;
     }
+    #productos-tienda{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .data{
+        width:30%;
+    }
 }
 
 /*DESKTOP*/
