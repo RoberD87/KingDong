@@ -138,7 +138,6 @@ h3 {
     #contenedor {
         width: 100%;
     }
-
     .grid {
         width: 100%;
         display: grid;
@@ -149,15 +148,12 @@ h3 {
         grid-template-columns: 1fr 1fr;
         align-items: center;
     }
-
     .Izq {
         grid-area: Izq;
     }
-
     .Der {
         grid-area: Der;
     }
-
     .separador {
         display: none;
     }
@@ -166,30 +162,26 @@ h3 {
     #productos .grid:last-child .Der {
         padding: 50px;
     }
-
     #productos .grid:first-child .Der {
         display: flex;
     }
-
     nav ul li a:not(#logo) {
         display: inline;
-
     }
-
     #icon-menu {
         display: none;
     }
-
     header {
         padding-top: 2%;
     }
-
     ul>li>a>img {
         margin-right: 30px;
     }
-
     footer {
         height: 500px;
         background-position-y: bottom;
+    }
+    .data{
+        width:23%;
     }
 }
